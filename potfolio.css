@@ -1,0 +1,96 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,700;1,200&display=swap');
+ */
+ @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Source+Sans+Pro:ital,wght@0,700;1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.sidebar{
+    background-color: rgb(184, 176, 176);
+    width: 434px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav{
+    list-style: none;
+    /* font-size: 30px; */
+}
+.sidebar nav li {
+    list-style: none;
+    font-size: 25px;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /* background-color: yellow; */
+    width: 90vw;
+}
+.container{
+    display: flex;
+
+}
+.infoContainer{
+    /* background: linear-gradient(chocolate,orange,skyblue,indigo); */
+    height: 58vh;
+    width: 80vw;
+    margin: auto;
+    margin-top: 144px;
+    display: flex;
+    justify-content: space-around;
+}
+.devPic img{
+    /* height: auto; */
+    height: 58vh;
+    
+
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Dancing Script', cursive;
+}
+.hello{
+    font-size: 65px;
+    
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+    font-family:'Source Sans Pro', sans-serif;
+}
+.about{
+    font-size: 40px;
+}
+.buttons{
+    margin-top: 34px;
+}
+.moreabout{
+    font-size: 22px;
+    margin-top: 23px;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    font-weight: bold;
+}
+.buttons button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.buttons button:hover{
+    background-color: white;
+    color: dodgerblue;
+
+}
